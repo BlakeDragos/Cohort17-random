@@ -23,7 +23,7 @@ $(document).ready(function () {
         current = 0;
         shuffle(classroom);
         console.log(classroom);
-        $("#student").text("Start");
+        $("#student").text(classroom[current]);
         $("#random").hide();
     })
 
@@ -35,15 +35,10 @@ $(document).ready(function () {
             $("#student").text("Start");
             localStorage.setItem("classroom", JSON.stringify(classroom));
             localStorage.setItem("current", JSON.stringify(current));
-        } else if(current === 0){
-            $("#student").text(classroom[current]);
-            localStorage.setItem("classroom", JSON.stringify(classroom));
-            localStorage.setItem("current", JSON.stringify(current));
-            current++;
         } 
         else {
-            $("#student").text(classroom[current]);
             current++;
+            $("#student").text(classroom[current]);
             localStorage.setItem("classroom", JSON.stringify(classroom));
             localStorage.setItem("current", JSON.stringify(current));
         }
