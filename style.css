@@ -1,0 +1,25 @@
+#student{
+    width: 350px;
+    line-height: 200px;
+    height: 200px;
+    background-color: #a77e4a;
+    font-size: 32px;
+    border-radius: 19px;
+    border: 6px solid forestgreen;
+    text-align: center;
+    vertical-align: middle;
+}
+#random{
+    width: 350px;
+    line-height: 200px;
+    height: 200px;
+    background-color: #a77e4a;
+    font-size: 32px;
+    border-radius: 19px;
+    border: 6px solid forestgreen;
+    text-align: center;
+    vertical-align: middle;
+}
+body{
+    background-image: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg)
+}
