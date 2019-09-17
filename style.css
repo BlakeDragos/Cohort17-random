@@ -8,6 +8,10 @@
     border: 6px solid forestgreen;
     text-align: center;
     vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+#student:focus {
+    outline: none !important;
 }
 #random{
     width: 350px;
@@ -19,6 +23,7 @@
     border: 6px solid forestgreen;
     text-align: center;
     vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
 }
 body{
     background-image: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg)
