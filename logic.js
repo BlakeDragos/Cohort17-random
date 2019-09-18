@@ -15,7 +15,7 @@ $(document).ready(function () {
         classroom = ["Abdul Barre", "Alex Griep", "Ashley Wegwerth", "Aubrey Koski", "Balaji Manoharan", "Baraka Ibrahim",
         "Bashir Raghe", "Ben Honken", "Blake Pierce", "Brennan Spicer", "Brooke Kumar", "Bryan Iund", "Colin Kramer", "Elizabeth O'Leary",
         "Hamza Abdikarim", "Henry Johnson", "Issa Issa", "Jacob Rosenbaum", "James Botham", "James Caples", "Johnny Yang", "Ka Vang",
-        "Kayla Kuhlman", "Keith Kleinschmidt", "Kyle Betlach", "Mai Xiong", "Mauricio gomez", "Mohamed Abdi", "Mohamed Ahmed",
+        "Kayla Kuhlman", "Keith Kleinschmidt", "Kyle Betlach", "Mai Xiong", "Mauricio Gomez", "Mohamed Abdi", "Mohamed Ahmed",
         "Ranji Ramroop", "Tasha Tran", "Terri Decaire", "Tim Scheve", "Yogeeta Gajway", "Zhen yong Chen"];
         current = 0;
     }
