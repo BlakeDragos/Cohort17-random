@@ -20,6 +20,7 @@
     height: 200px;
     font-size: 32px;
     border-radius: 19px;
+    margin-bottom: 20px;
     text-align: center;
     vertical-align: middle;
     -webkit-tap-highlight-color: transparent;
@@ -29,4 +30,5 @@
 }
 body{
     background: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg) no-repeat center center fixed;
+    text-align: center;
 }
