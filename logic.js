@@ -28,11 +28,11 @@ $(document).ready(function () {
     })
 
     $("#student").click(function () {
-        if (current >= classroom.length) {
+        if (current === classroom.length -1) {
             current = 0;
             shuffle(classroom);
             console.log(classroom);
-            $("#student").text("Start");
+            $("#student").text(classroom[current]);
             localStorage.setItem("classroom", JSON.stringify(classroom));
             localStorage.setItem("current", JSON.stringify(current));
         } 
