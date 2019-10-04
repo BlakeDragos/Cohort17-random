@@ -24,17 +24,28 @@ $(document).ready(function () {
         shuffle(classroom);
         console.log(classroom);
         $("#student").text(classroom[current]);
-        $("#random").hide();
+        $("#random").addClass('animated bounceOutUp');
+        setTimeout(function(){
+            $("#random").hide();
+        },1000)
     })
 
     $("#student").click(function () {
         if (current === classroom.length -1) {
+            $("#student").addClass('animated hinge');
             current = 0;
             shuffle(classroom);
             console.log(classroom);
             $("#student").text(classroom[current]);
             localStorage.setItem("classroom", JSON.stringify(classroom));
             localStorage.setItem("current", JSON.stringify(current));
+            setTimeout(function(){
+                $("#student").removeClass('animated hinge');
+                $("#student").addClass('animated zoomInUp');
+                setTimeout(function(){
+                    $("#student").removeClass('animated zoomInUp');
+                },2000)
+            }, 3000);
         } 
         else {
             current++;
