@@ -10,46 +10,46 @@ $(document).ready(function () {
         classroom = JSON.parse(localStorage.getItem("classroom"));
         current = parseInt(localStorage.getItem("current"));
         $("#random").hide();
-        $("#student").text(classroom[current]);
-    }else{
+        $("#student").text(classroom[current] + ": " + (current + 1));
+    } else {
         classroom = ["Abdul Barre", "Alex Griep", "Ashley Wegwerth", "Aubrey Koski", "Balaji Manoharan", "Baraka Ibrahim",
-        "Bashir Raghe", "Ben Honken", "Blake Pierce", "Brennan Spicer", "Brooke Kumar", "Bryan Iund", "Colin Kramer", "Elizabeth O'Leary",
-        "Hamza Abdikarim", "Henry Johnson", "Issa Issa", "Jacob Rosenbaum", "James Botham", "James Caples", "Johnny Yang", "Ka Vang",
-        "Kayla Kuhlman", "Keith Kleinschmidt", "Kyle Betlach", "Mai Xiong", "Mauricio Gomez", "Mohamed Abdi", "Mohamed Ahmed",
-        "Ranji Ramroop", "Tasha Tran", "Terri Decaire", "Tim Scheve", "Yogeeta Gajway", "Zhen yong Chen" , "Abdullahi Hassan."];
+            "Bashir Raghe", "Ben Honken", "Blake Pierce", "Brennan Spicer", "Brooke Kumar", "Bryan Iund", "Colin Kramer", "Elizabeth O'Leary",
+            "Hamza Abdikarim", "Henry Johnson", "Issa Issa", "Jacob Rosenbaum", "James Botham", "James Caples", "Johnny Yang", "Ka Vang",
+            "Kayla Kuhlman", "Keith Kleinschmidt", "Kyle Betlach", "Mai Xiong", "Mauricio Gomez", "Mohamed Abdi", "Mohamed Ahmed",
+            "Ranji Ramroop", "Tasha Tran", "Terri Decaire", "Tim Scheve", "Yogeeta Gajway", "Zhen yong Chen", "Abdullahi Hassans"];
         current = 0;
     }
     $("#random").click(function () {
         current = 0;
         shuffle(classroom);
         console.log(classroom);
-        $("#student").text(classroom[current]);
+        $("#student").text(classroom[current] + ": " + (current + 1));
         $("#random").addClass('animated bounceOutUp');
-        setTimeout(function(){
+        setTimeout(function () {
             $("#random").hide();
-        },1000)
+        }, 1000)
     })
 
     $("#student").click(function () {
-        if (current === classroom.length -1) {
-            $("#student").addClass('animated hinge');
+        if (current === classroom.length - 1) {
+            $("#student").addClass('animated bounceOutRight');
             current = 0;
             shuffle(classroom);
             console.log(classroom);
-            $("#student").text(classroom[current]);
             localStorage.setItem("classroom", JSON.stringify(classroom));
             localStorage.setItem("current", JSON.stringify(current));
-            setTimeout(function(){
-                $("#student").removeClass('animated hinge');
-                $("#student").addClass('animated zoomInUp');
-                setTimeout(function(){
-                    $("#student").removeClass('animated zoomInUp');
-                },2000)
-            }, 3000);
-        } 
+            setTimeout(function () {
+                $("#student").removeClass('animated bounceOutRight');
+                $("#student").text(classroom[current] + ": " + (current + 1));
+                $("#student").addClass('animated bounceInLeft');
+                setTimeout(function () {
+                    $("#student").removeClass('animated bounceInLeft');
+                }, 2000)
+            }, 350);
+        }
         else {
             current++;
-            $("#student").text(classroom[current]);
+            $("#student").text(classroom[current] + ": " + (current + 1));
             localStorage.setItem("classroom", JSON.stringify(classroom));
             localStorage.setItem("current", JSON.stringify(current));
         }
