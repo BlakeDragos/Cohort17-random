@@ -1,7 +1,8 @@
 #student{
     width: 350px;
-    line-height: 200px;
-    height: 200px;
+    height: auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
     font-size: 32px;
     border-radius: 19px;
     text-align: center;
@@ -46,7 +47,7 @@ html {
     }
     #student{
         width: 100px;
-        height: 50px;
+        height: auto;
         font-size: 12px;
         border-radius: 5px;
         line-height: 1.24;
@@ -64,7 +65,7 @@ html {
     }
     #student{
         width: 100px;
-        height: 50px;
+        height: auto;
         font-size: 12px;
         border-radius: 5px;
         line-height: 1.24;
