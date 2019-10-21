@@ -129,7 +129,8 @@ $(document).ready(function() {
       'Richard Tshabalala',
       'Yogeeta Gajway',
       'Zhen yong Chen',
-      'Abdullahi Hassans'
+      'Abdullahi Hassans',
+      'Chris Woolcott'
     ];
     current = 0;
     console.log(classroom);
