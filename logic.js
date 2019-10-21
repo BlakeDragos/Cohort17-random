@@ -134,11 +134,13 @@ $(document).ready(function() {
     ];
     current = 0;
     console.log(classroom);
+    $('#student').hide();
   }
   $('#random').click(function() {
     current = 0;
     shuffle(classroom);
     console.log(classroom);
+    $('#student').show();
     $('#student').text(classroom[current] + ': ' + current + 1);
     $('#random').addClass('animated bounceOutUp');
     setTimeout(function() {
