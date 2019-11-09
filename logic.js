@@ -1,7 +1,6 @@
 $(document).ready(function() {
   let classroom;
   let current;
-
   function shuffle(array) {
     array.sort(() => Math.random() - 0.5);
   }
@@ -22,10 +21,9 @@ $(document).ready(function() {
       'Bashir Raghe',
       'Ben Honken',
       'Blake Pierce',
-      'Spicy Boi',
+      '💯🅱️🅾️👌💯',
       'Brooke Kumar',
       'Bryan Iund',
-      'Colin Kramer',
       "Elizabeth O'Leary",
       'Hamza Abdikarim',
       'Henry Johnson',
@@ -61,10 +59,9 @@ $(document).ready(function() {
       'Bashir Raghe',
       'Ben Honken',
       'Blake Pierce',
-      'Spicy Boi',
+      '💯🅱️🅾️👌💯',
       'Brooke Kumar',
       'Bryan Iund',
-      'Colin Kramer',
       "Elizabeth O'Leary",
       'Hamza Abdikarim',
       'Henry Johnson',
@@ -100,10 +97,9 @@ $(document).ready(function() {
       'Bashir Raghe',
       'Ben Honken',
       'Blake Pierce',
-      'Spicy Boi',
+      '💯🅱️🅾️👌💯',
       'Brooke Kumar',
       'Bryan Iund',
-      'Colin Kramer',
       "Elizabeth O'Leary",
       'Hamza Abdikarim',
       'Henry Johnson',
