@@ -239,7 +239,7 @@ $(document).ready(function() {
     {
       label: 'Brennan Spicer',
       value: '',
-      question: '💯🅱️🅾️👌💯'
+      question: '💯🅱️💟🚹👌💯'
     }, //period
     {
       label: 'Brooke Kumar',
