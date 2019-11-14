@@ -36,8 +36,22 @@
 
   <body>
     <div class="container">
-      <br /><br /><br /><br />
       <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-dark" id="switch">Switch</button>
+        </div>
+      </div>
+      <div id="fortune">
+        <div class="row">
+          <div class="col col-md-12">
+            <div id="chart"></div>
+          </div>
+          <div class="col col-md-12">
+            <div id="question"><h1 class="bg-dark text-white"></h1></div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="normal">
         <div class="col col-12">
           <button type="button" class="btn btn-dark" id="random">
             randomize
@@ -48,5 +62,6 @@
         </div>
       </div>
     </div>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   </body>
 </html>
