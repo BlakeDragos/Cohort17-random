@@ -460,7 +460,7 @@ $(document).ready(function() {
 
     vis
       .transition()
-      .duration(9000)
+      .duration(6000)
       .attrTween('transform', rotTween)
       .each('end', function() {
         //mark question as seen
