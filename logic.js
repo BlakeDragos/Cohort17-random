@@ -429,8 +429,11 @@ $(document).ready(function() {
   function spin(d) {
     container.on('click', null);
     var audioElement = document.createElement('audio');
+    var audioElement2 = document.createElement('audio');
     audioElement.setAttribute('src', './GameShow.mp3');
+    audioElement2.setAttribute('src', './RandomizerTheme.mp3');
     audioElement.play();
+    audioElement2.play();
 
     //all slices have been seen, all done
     console.log('OldPick: ' + oldpick.length, 'Data length: ' + data.length);
