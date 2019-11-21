@@ -307,7 +307,7 @@ $(document).ready(function() {
     {
       label: 'Kyle Betlach',
       value: '',
-      question: 'Which coding language is used for adding functionality to a web page?Kyle Betlach'
+      question: 'Kyle Betlach'
     }, // JavaScript
     {
       label: 'Mai Xiong',
