@@ -31,114 +31,84 @@ $(document).ready(function() {
       'Aubrey Koski',
       'Balaji Manoharan',
       'Baraka Ibrahim',
-      'Bashir Raghe',
       'Ben Honken',
       'Blake Pierce',
       '💯🅱️🅾️👌💯',
       'Brooke Kumar',
-      'Bryan Iund',
       "Elizabeth O'Leary",
-      'Hamza Abdikarim',
       'Henry Johnson',
       'Issa Issa',
       'Jacob Rosenbaum',
-      'Jonathan Carrasco',
-      'Elia Facundo Orta Carrasco',
       'James Botham',
       'James Caples',
-      'Johnny Yang',
       'Ka Vang',
       'Kayla Kuhlman',
       'Keith Kleinschmidt',
       'Kyle Betlach',
       'Mai Xiong',
       'Mauricio Gomez',
-      'Mohamed Abdi',
       'Haylee Thomas-Kuhlmann',
-      'Mohamed Ahmed',
       'Ranji Ramroop',
       'Tasha Tran',
       'Tim Scheve',
       'Richard Tshabalala',
-      'Yogeeta Gajway',
       'Zhen yong Chen',
-      'Abdullahi Hassans',
       'Abdul Barre',
       'Alex Griep',
       'Ashley Wegwerth',
       'Aubrey Koski',
       'Balaji Manoharan',
       'Baraka Ibrahim',
-      'Bashir Raghe',
       'Ben Honken',
       'Blake Pierce',
       '💯🅱️🅾️👌💯',
       'Brooke Kumar',
-      'Bryan Iund',
       "Elizabeth O'Leary",
-      'Hamza Abdikarim',
       'Henry Johnson',
       'Issa Issa',
       'Jacob Rosenbaum',
-      'Jonathan Carrasco',
-      'Elia Facundo Orta Carrasco',
       'James Botham',
       'James Caples',
-      'Johnny Yang',
       'Ka Vang',
       'Kayla Kuhlman',
       'Keith Kleinschmidt',
       'Kyle Betlach',
       'Mai Xiong',
       'Mauricio Gomez',
-      'Mohamed Abdi',
       'Haylee Thomas-Kuhlmann',
-      'Mohamed Ahmed',
       'Ranji Ramroop',
       'Tasha Tran',
       'Tim Scheve',
       'Richard Tshabalala',
-      'Yogeeta Gajway',
       'Zhen yong Chen',
-      'Abdullahi Hassans',
       'Abdul Barre',
       'Alex Griep',
       'Ashley Wegwerth',
       'Aubrey Koski',
       'Balaji Manoharan',
       'Baraka Ibrahim',
-      'Bashir Raghe',
       'Ben Honken',
       'Blake Pierce',
       '💯🅱️🅾️👌💯',
       'Brooke Kumar',
-      'Bryan Iund',
       "Elizabeth O'Leary",
-      'Hamza Abdikarim',
       'Henry Johnson',
       'Issa Issa',
       'Jacob Rosenbaum',
-      'Jonathan Carrasco',
-      'Elia Facundo Orta Carrasco',
       'James Botham',
       'James Caples',
-      'Johnny Yang',
       'Ka Vang',
       'Kayla Kuhlman',
       'Keith Kleinschmidt',
       'Kyle Betlach',
       'Mai Xiong',
       'Mauricio Gomez',
-      'Mohamed Abdi',
       'Haylee Thomas-Kuhlmann',
-      'Mohamed Ahmed',
       'Ranji Ramroop',
       'Tasha Tran',
       'Tim Scheve',
       'Richard Tshabalala',
-      'Yogeeta Gajway',
       'Zhen yong Chen',
-      'Abdullahi Hassans',
       'Chris Woolcott'
     ];
     current = 0;
@@ -220,11 +190,6 @@ $(document).ready(function() {
       label: 'Baraka Ibrahim',
       value: '',
       question: 'Baraka Ibrahim'
-    }, //background-color
-    {
-      label: 'Bashir Raghe',
-      value: '',
-      question: 'Bashir Raghe'
     }, //nesting
     {
       label: 'Ben Honken',
@@ -245,39 +210,19 @@ $(document).ready(function() {
       label: 'Brooke Kumar',
       value: '',
       question: 'Brooke Kumar'
-    }, //pound sign
-    {
-      label: 'Bryan Iund',
-      value: '',
-      question: 'Bryan Iund'
     }, //<body>
     {
       label: "Elizabeth O'Leary",
       value: '',
       question: "Elizabeth O'Leary"
-    }, //<ul>
-    {
-      label: 'Hamza Abdikarim',
-      value: '',
-      question: 'Hamza Abdikarim'
-    }, //<h1>
+    },
     {
       label: 'Henry Johnson',
       value: '',
       question: 'Henry Johnson'
     }, //margin
     { label: 'Issa Issa', value: '', question: 'Issa Issa' }, //< >
-    { label: 'Jacob Rosenbaum', value: '', question: 'Jacob Rosenbaum' }, // { }
-    {
-      label: 'Jonathan Carrasco',
-      value: '',
-      question: 'Jonathan Carrasco'
-    }, //<p>
-    {
-      label: 'Elia Facundo Orta Carrasco',
-      value: '',
-      question: 'Elia Facundo Orta Carrasco'
-    }, //<!DOCTYPE html>
+    { label: 'Jacob Rosenbaum', value: '', question: 'Jacob Rosenbaum' }, //<!DOCTYPE html>
     {
       label: 'James Botham',
       value: '',
@@ -287,8 +232,7 @@ $(document).ready(function() {
       label: 'James Caples',
       value: '',
       question: 'James Caples'
-    }, // colon
-    { label: 'Johnny Yang', value: '', question: 'Johnny Yang' }, // <style>
+    }, // colon <style>
     {
       label: 'Ka Vang',
       value: '',
@@ -318,17 +262,11 @@ $(document).ready(function() {
       label: 'Mauricio Gomez',
       value: '',
       question: 'Mauricio Gomez'
-    }, //semi-colon
-    { label: 'Mohamed Abdi', value: '', question: 'Mohamed Abdi' }, //100%
+    }, //semi-colon//100%
     {
       label: 'Haylee Thomas-Kuhlmann',
       value: '',
       question: 'Haylee Thomas-Kuhlmann'
-    }, //100%
-    {
-      label: 'Mohamed Ahmed',
-      value: '',
-      question: 'Mohamed Ahmed'
     }, //100%
     {
       label: 'Ranji Ramroop',
@@ -351,19 +289,9 @@ $(document).ready(function() {
       question: 'Richard Tshabalala'
     }, //100%
     {
-      label: 'Yogeeta Gajway',
-      value: '',
-      question: 'Yogeeta Gajway'
-    }, //100%
-    {
       label: 'Zhen yong Chen',
       value: '',
       question: 'Zhen yong Chen'
-    }, //100%
-    {
-      label: 'Abdullahi Hassans',
-      value: '',
-      question: 'Abdullahi Hassans'
     }
   ];
 
